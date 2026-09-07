@@ -9,7 +9,15 @@
 
 当前版本：`0.1.1`。
 
+## 界面预览
+
+运行面板：
+
 ![BOSS 两步助手运行界面](docs/images/boss-two-step-helper-panel.png)
+
+收起后显示为页面右下角的“两步助手”按钮：
+
+![BOSS 两步助手收起状态](docs/images/boss-two-step-helper-collapsed.png)
 
 ## 本地安装
 
