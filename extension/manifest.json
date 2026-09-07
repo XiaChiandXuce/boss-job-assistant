@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "BOSS 两步助手",
+  "version": "0.1.1",
+  "description": "在当前职位列表中依次打招呼，再发送 BOSS 中已上传的附件简历。",
+  "permissions": ["storage", "tabs"],
+  "host_permissions": ["https://www.zhipin.com/*"],
+  "background": {"service_worker": "background.js"},
+  "action": {"default_title": "显示 BOSS 两步助手"},
+  "content_scripts": [{
+    "matches": ["https://www.zhipin.com/*"],
+    "js": ["core.js", "adapter.js", "content.js"],
+    "run_at": "document_idle",
+    "all_frames": false
+  }]
+}

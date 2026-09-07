@@ -1,0 +1,16 @@
+{
+  "browser": {
+    "browserName": "chromium",
+    "launchOptions": {
+      "channel": "chromium",
+      "executablePath": "C:/Users/14592/AppData/Local/ms-playwright/chromium-1228/chrome-win64/chrome.exe",
+      "headless": true,
+      "ignoreDefaultArgs": ["--disable-extensions"],
+      "args": [
+        "--disable-extensions-except=C:/Users/14592/Documents/Probation-Defense/boss-job-assistant/extension",
+        "--load-extension=C:/Users/14592/Documents/Probation-Defense/boss-job-assistant/extension"
+      ]
+    },
+    "contextOptions": {"viewport": {"width": 1440, "height": 960}, "serviceWorkers": "block"}
+  }
+}
