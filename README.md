@@ -9,6 +9,8 @@
 
 当前版本：`0.1.1`。
 
+![BOSS 两步助手运行界面](docs/images/boss-two-step-helper-panel.png)
+
 ## 本地安装
 
 1. 打开 `edge://extensions/` 或 `chrome://extensions/`；
