@@ -1,4 +1,5 @@
-# BOSS 两步助手
+# BOSS 两步助手![Uploading image.png…]()
+
 
 面向 Edge / Chrome 的本地浏览器扩展。在用户已登录 BOSS 直聘后，按职位页中已加载的岗位依次执行：
 
